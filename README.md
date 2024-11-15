@@ -1,4 +1,8 @@
 # verus-mobile
+# Pertama Download semua Tools Nya disini
+```
+https://drive.google.com/drive/folders/17YVY54X0U30Pn1C5J8qqtL0aP0VX2yeT?hl=ID
+```
 # Download dan install config miningnya 
 ```
 cd
