@@ -13,3 +13,7 @@ chmod +x /root/ccminer/run.sh
 ```
 cd ccminer && run.sh
 ```
+Cara merubah Wallet Verus
+```
+nano /root/ccminer/run.sh
+```
