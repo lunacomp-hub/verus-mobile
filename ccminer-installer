@@ -14,8 +14,6 @@ function input_with_default() {
 
 echo -e "CCMINER_INSTALLER\n"
 echo -e "version : 1.0.0\n"
-echo "by Takumi Tesla"
-echo -e "github : https://github.com/takumitesla/\n"
 
 
 clear
