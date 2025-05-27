@@ -6,7 +6,7 @@ ccminer_path="/root/ccminer"
 
 # Mining parameters
 algorithm="verus"
-stratum_server="stratum+tcp://ap.luckpool.net:3956"
+stratum_server="stratum+tcp://sg.vipor.net:5040"
 base_username="RQDmLkZbRKs51qVnKcPHQeDtPcBZ2Favvk"
 hostname=VERUS_MINER
 username="${base_username}.${hostname}"
