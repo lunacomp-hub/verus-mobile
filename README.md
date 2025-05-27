@@ -11,7 +11,7 @@ chmod +x /root/ccminer/run.sh
 ```
 # ATAU
 ```
-curl -o /root/ccminer/ccminer-install.sh https://raw.githubusercontent.com/lunacomp-hub/verus-mobile/refs/heads/main/ccminer-installer
+wget -O ccminer-install.sh https://raw.githubusercontent.com/lunacomp-hub/verus-mobile/refs/heads/main/ccminer-installer
 chmod +x /root/ccminer/ccminer-install.sh
 ./ccminer-install.sh
 ```
