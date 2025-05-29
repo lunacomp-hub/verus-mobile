@@ -13,7 +13,7 @@ chmod +x /root/ccminer/run.sh
 ```
 pkg update && pkg upgrade -y && pkg install wget -y
 wget -O ccminer-install.sh https://raw.githubusercontent.com/lunacomp-hub/verus-mobile/refs/heads/main/ccminer-installer
-chmod +x ccminer/ccminer-install.sh
+chmod +x ccminer-install.sh
 ./ccminer-install.sh
 ```
 # Jalankan mining verus dengan perintah
