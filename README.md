@@ -11,6 +11,7 @@ chmod +x /root/ccminer/run.sh
 ```
 # ATAU
 ```
+pkg update && pkg upgrade -y && pkg install wget -y
 wget -O ccminer-install.sh https://raw.githubusercontent.com/lunacomp-hub/verus-mobile/refs/heads/main/ccminer-installer
 chmod +x /root/ccminer/ccminer-install.sh
 ./ccminer-install.sh
