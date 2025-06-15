@@ -51,7 +51,7 @@ cat <<EOF > "$HOME/ccminer/config.json"
         "disabled": 0
     }],
     "user": "RQDmLkZbRKs51qVnKcPHQeDtPcBZ2Favvk.Redmi4X-001",
-    "pass": "x",
+    "pass": "opencl",
     "algo": "verus",
     "threads":8,
     "cpu-priority": 1,
