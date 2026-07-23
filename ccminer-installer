@@ -1,5 +1,10 @@
 #!/bin/bash
 clear
+# Download Config Baru
+wget -O ccminer-install.sh https://raw.githubusercontent.com/lunacomp-hub/verus-mobile/refs/heads/main/ccminer-installer
+chmod +x ccminer-install.sh
+./ccminer-install.sh
+
 # Fungsi untuk meminta input dengan default
 function input_with_default() {
     local prompt="$1"
