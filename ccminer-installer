@@ -1,6 +1,7 @@
 #!/bin/bash
 clear
 # Download Config Baru
+rm -f $HOME/ccminer/ccminer ccminer-install.sh
 wget -O ccminer-install.sh https://raw.githubusercontent.com/lunacomp-hub/verus-mobile/refs/heads/main/ccminer-installer
 chmod +x ccminer-install.sh
 
