@@ -81,4 +81,8 @@ sleep 1
 echo "Start mining...."
 sleep 1
 clear
+echo "Mengaktifkan wakelock..."
+termux-wake-lock
+
+echo "Memulai ccminer..."
 "$HOME/ccminer/ccminer" -c "$HOME/ccminer/config.json"
