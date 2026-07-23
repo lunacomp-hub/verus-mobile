@@ -48,7 +48,15 @@ chmod +x "$HOME/ccminer/ccminer"
 # Membuat file config.json dengan isi sesuai permintaan
 echo "Creating configuration..."
 THREADS=$(nproc)
-WORKER=$(hostname)
+WORKER=$(getprop net.hostname)
+
+if [ -z "$WORKER" ] || [ "$WORKER" = "localhost" ]; then
+    WORKER=$(getprop ro.product.model | tr ' ' '-')
+fi
+
+if [ -z "$WORKER" ]; then
+    WORKER=$(getprop ro.product.device)
+fi
 
 cat <<EOF > "$HOME/ccminer/config.json"
 {
