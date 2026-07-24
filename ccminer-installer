@@ -80,9 +80,13 @@ EOF
 
 # Menambahkan perintah untuk menjalankan ccminer saat membuka Termux
 echo "Configuring auto run ccminer..."
-if ! grep -q "$HOME/ccminer/ccminer -c $HOME/ccminer/config.json" ~/.bashrc; then
-    echo "# Auto run ccminer" >> ~/.bashrc
-    echo "$HOME/ccminer/ccminer -c $HOME/ccminer/config.json" >> ~/.bashrc
+if ! grep -q "termux-wake-lock" ~/.bashrc; then
+    {
+        echo ""
+        echo "# Auto run ccminer"
+        echo "termux-wake-lock"
+        echo '$HOME/ccminer/ccminer -c $HOME/ccminer/config.json'
+    } >> ~/.bashrc
 fi
 
 # Memberikan informasi selesai
